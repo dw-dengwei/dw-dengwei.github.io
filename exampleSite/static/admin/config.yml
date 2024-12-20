@@ -14,7 +14,7 @@ logo_url: /favicon.svg # 你的 logo
 
 
 # 禁用部署预览链接
-# show_preview_links: false
+show_preview_links: true
 
 
 # This line should *not* be indented
@@ -34,11 +34,9 @@ locale: "zh_Hans" # 语言环境
 
 
 collections: 
-
-
   - name: "posts" # 在路由中使用，例如：/admin/collections/blog。
     label: "Posts" # 在用户界面中使用
-    folder: "source/_posts/" # 存储文件的文件夹的路径。
+    folder: "content/posts/" # 存储文件的文件夹的路径。
     # filter: {field: "categories", value: "Posts"} # 筛选
     create: true # 允许用户在这个集合中创建新的文件。
     fields: # 每份文件的字段，通常是前面的内容。
