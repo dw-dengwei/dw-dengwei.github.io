@@ -43,6 +43,8 @@ collections:
       - {label: "Title", name: "title", default: "Posts: ", widget: "string", required: true}
       - {date: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: true}
       - {author: "Author", name: "author", widget: "string", required: true}
-      - {tags: "Tags", name: "tags", widget: "string", required: true}
+      - {tags: "Tags", name: "tags", widget: "list", required: true}
+      - {image: "Main image", name: "image", widget: "image", required: false}
       - {description: "Description", name: "description", required: true}
-      - {label: "Content", name: "body", widget: "markdown", required: true}
+      - {toc: "Table of contents", name: "toc", widget: "list", required: false}
+      - {content: "Content", name: "body", widget: "markdown", required: true}
