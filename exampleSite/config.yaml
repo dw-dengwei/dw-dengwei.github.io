@@ -369,8 +369,7 @@ params:
       title: Recent Blogs
       enable: false
       disableFeaturedImage: true
-    socialNetworks:
-      github: https://github.com
+
 
   # List pages like blogs and posts
   listPages:
