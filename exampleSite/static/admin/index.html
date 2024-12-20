@@ -9,6 +9,9 @@
         <!-- <link rel="icon" type="image/svg+xml" sizes="180x180" href="favicon.svg"> -->
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+    </head>
+    <body>
+        <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
         <script type="module">
             // import { ReactMarkdownMath } from 'https://esm.sh/react-markdown-math@1.0.2?bundle'
             import Markdown from 'https://esm.sh/react-markdown@9?bundle'
@@ -27,8 +30,5 @@
             });
             CMS.registerPreviewTemplate("posts", PostPreview);
           </script>
-    </head>
-    <body>
-        <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     </body>
 </html>
