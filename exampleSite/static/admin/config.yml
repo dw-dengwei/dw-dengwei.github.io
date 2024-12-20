@@ -26,8 +26,8 @@ media_folder: "/exampleSite/static/images/" # 媒体文件将存储在图片/上
 public_folder: "/images" # 上传的媒体的src属性将以/images/uploads开头。
 
 
-site_url: https://wei-site.netlify.app/ # 网站网址
-display_url: https://wei-site.netlify.app/ # 显示网址
+site_url: https://weidv.netlify.app/ # 网站网址
+display_url: https://weidv.netlify.app/ # 显示网址
 
 
 locale: "zh_Hans" # 语言环境
