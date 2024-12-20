@@ -6,9 +6,5 @@ tags:
   - Markdown syntax
   - Mathjax
   - example
-image: /images/screenshot.png
-description: ""
-
-
 ---
 test
