@@ -8,7 +8,7 @@ tags:
   - example
 image: /images/screenshot.png
 description: ""
-toc: true
-mathjax: true
+
+
 ---
 test
