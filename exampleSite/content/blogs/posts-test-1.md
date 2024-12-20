@@ -1,11 +1,15 @@
 ---
-title: "Posts: test"
-date: 2024-12-20 18:28:00
-author: Deng
+title: "Render Math With Mathjax"
+date: 2022-12-09T19:53:33+05:30
 draft: false
+author: "Gurusabarish"
 tags:
-  - test
+  - Markdown syntax
+  - Mathjax
+  - example
 image: /images/screenshot.png
-description: test
+description: ""
+toc: true
+mathjax: true
 ---
 test
