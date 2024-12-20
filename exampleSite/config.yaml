@@ -1,4 +1,4 @@
-baseURL: "https://wei-site.netlify.app"
+baseURL: "https://weidv.netlify.app"
 languageCode: "en-us"
 title: "Wei's Site"
 theme: hugo-profile
