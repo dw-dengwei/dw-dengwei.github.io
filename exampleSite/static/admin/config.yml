@@ -23,7 +23,7 @@ publish_mode: editorial_workflow
 
 # This line should *not* be indented
 media_folder: "/exampleSite/static/images/" # 媒体文件将存储在图片/上载下的Repo中。
-public_folder: "/exampleSite/static/images/" # 上传的媒体的src属性将以/images/uploads开头。
+public_folder: "/images" # 上传的媒体的src属性将以/images/uploads开头。
 
 
 site_url: https://wei-site.netlify.app/ # 网站网址
