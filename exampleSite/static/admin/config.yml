@@ -48,5 +48,5 @@ collections:
       - {description: "Abstract", name: "description", required: true}
       - {toc: "Table of Contents", name: "toc", widget: "boolean", default: true, required: true}
       - {mathjax: "Mathjax", name: "mathjax", widget: "boolean", default: true}
-      - {content: "Content", name: "body", widget: "markdown", required: true, modes: "raw"}
+      - {content: "Content", name: "body", widget: "markdown", required: true, modes: ["raw"]}
 
