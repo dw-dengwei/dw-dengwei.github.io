@@ -46,7 +46,7 @@ collections:
       - {tags: "Tags", name: "tags", widget: "list", required: true}
       - {image: "Main image", name: "image", widget: "image", required: false}
       - {description: "Abstract", name: "description", required: true}
-      - {toc: "Table of Contents", name: "toc", widget: "boolean", default: true, required: false}
+      - {toc: "Table of Contents", name: "toc", widget: "boolean", default: true, required: true}
       - {mathjax: "Mathjax", name: "mathjax", widget: "boolean", default: true}
       - {content: "Content", name: "body", widget: "markdown", required: true}
 
