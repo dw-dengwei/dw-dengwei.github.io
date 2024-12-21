@@ -9,17 +9,13 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 
-
 logo_url: /favicon.svg # 你的 logo
-
 
 # 禁用部署预览链接
 show_preview_links: true
 
-
 # This line should *not* be indented
 publish_mode: editorial_workflow
-
 
 # This line should *not* be indented
 media_folder: "/exampleSite/static/images/" # 媒体文件将存储在图片/上载下的Repo中。
@@ -45,8 +41,8 @@ collections:
       - {author: "Author", name: "author", widget: "string", required: true}
       - {tags: "Tags", name: "tags", widget: "list", required: true}
       - {image: "Main image", name: "image", widget: "image", required: false}
-      - {description: "Abstract", name: "description", required: true}
+      # - {description: "Abstract", name: "description", required: true}
       - {toc: "Table of Contents", name: "toc", widget: "boolean", default: true, required: true}
       - {mathjax: "Mathjax", name: "mathjax", widget: "boolean", default: true}
-      - {content: "Content", name: "body", widget: "markdown", required: true, modes: ["raw"]}
+      - {content: "Content", name: "body", widget: "markdown", default: "", required: true, modes: ["raw"], "buttons": []}
 
